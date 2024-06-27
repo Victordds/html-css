@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* SELETORES PERSNALIZADOS
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = clildren
+        */
+
+        body {
+            background-image: linear-gradient(to right , #04BF8A,#024059);
+        }
+
+        main {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 5px 5px 5px #01454d98;
+            width: 600px;
+            padding: 10px;
+            margin: auto;
+        }
+
+        a {
+            color:cadetblue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+
+</head>
+<body>
+    <main>
+        <h1>Personalizando Links</h1>
+        <ul>
+            <li><a href="https://www.facebook.com/victor.dutra.3557440?locale=pt_BR" target="_blank">facebook</a></li>
+            <li><a href="https://www.youtube.com/@victordutra8876">Canal do YouTube</a></li>
+            <li><a href="https://www.instagram.com/vector_siilva/">instagram</a></li>
+        </ul>
+    </main>
+</body>
+</html>
