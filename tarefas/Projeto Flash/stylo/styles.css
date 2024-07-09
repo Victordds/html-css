@@ -159,18 +159,19 @@ li:hover {
     background-image: url(https://i.redd.it/ksnh65hxad881.jpg);
 }
 
+
+span {
+    color: #fff;
+    font-family: "Kdam Thmor Pro", sans-serif;;
+}
+
 footer {
     height: 300px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-}
-
-span {
-    color: #fff;
-    font-family: "Kdam Thmor Pro", sans-serif;;
+    justify-content: space-around
 }
 
 .footer-navigation {

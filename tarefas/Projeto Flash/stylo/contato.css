@@ -32,7 +32,7 @@ li {
     list-style: none;
     color: aliceblue;
     cursor:pointer;
-    font-size: 19px;
+    font-size: 15px;
     transition: .5s;
     font-family: "Kdam Thmor Pro", sans-serif;
 }
@@ -78,3 +78,4 @@ li:hover {
     font-family: "Kdam Thmor Pro", sans-serif;
     width: 70%;
 }
+
