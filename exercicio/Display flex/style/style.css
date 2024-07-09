@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+}
+
+.minhadiv {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid red;
+}

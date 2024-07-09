@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightslategrey;
+        }
+
+        table {
+            width: 400px; 
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        th {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center; /* Alinhamento horizontal*/
+            vertical-align: middle;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left; /* Alinhamento horizontal*/
+            vertical-align: middle;
+        }
+        
+        thead, tfoot{
+            background-color: darkgray;
+            color: rgb(85, 85, 85);
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: lightslategrey ;
+        }
+
+        tbody > tr:nth-child(odd)  { /* 2n-1 */
+            background-color: rgb(224, 23, 23);
+        }
+
+        tbody > tr:nth-child(even)  { /* 2n */
+            background-color: lightgrey;
+        }
+
+        td.num {
+            text-align: right;
+            width: 100px;
+        }
+
+        tfoot {
+            position: sticky;
+            bottom: -1px;
+            background-color: lightslategrey ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD ,TH
+            TBODY
+                TR, TD ,TH
+            TFOOT
+                TR, TD ,TH
+    -->
+
+    <table>
+        <caption>População das UF</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 846</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">60 145 468</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">60 145 468</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 846</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">60 145 468</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">60 145 468</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 846</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">60 145 468</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">60 145 468</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 846</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">60 145 468</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">60 145 468</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 846</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">60 145 468</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">60 145 468</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 846</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">60 145 468</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">60 145 468</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 846</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">60 145 468</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">60 145 468</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 846</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">60 145 468</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">60 145 468</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>127 234 105</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+   <p>rem ipsum dolor sit amet consectetur adipisicing elit. Earum, inventore. Laboriosam dolore ipsa harum id quasi reiciendis incidunt ex aperiam. Fugiat omnis suscipit est consectetur quae labore, ducimus accusantium quisquam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio saepe fuga neque praesentium. Cum voluptatibus similique, dolorum nihil in dolore deleniti tempore explicabo qui illum. Aliquid est deleniti iste consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eos quia hic rem error, veritatis voluptatem officia maxime ex fugit! Voluptates culpa natus alias eligendi dolorum saepe cumque, inventore fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eum asperior Loes eveniet quam! Voluptatibus quam perferendis impedit culpa, nam tenetur earum cumque facilis reprehenderit molestias ea, vero ad, dolorum non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quibusdam nam excepturi, non quasi facilis culpa aperiam. Iure quis, voluptatum quam fugit enim nobis et eum consequuntur odio, aut labore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ducimus culpa vero aliquid repellat! Explicabo, saepe. Ad, et laborum id minus explicabo, velit dignissimos molestias placeat ut qui nulla laudantium.</p> 
+   <p>rem ipsum dolor sit amet consectetur adipisicing elit. Earum, inventore. Laboriosam dolore ipsa harum id quasi reiciendis incidunt ex aperiam. Fugiat omnis suscipit est consectetur quae labore, ducimus accusantium quisquam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio saepe fuga neque praesentium. Cum voluptatibus similique, dolorum nihil in dolore deleniti tempore explicabo qui illum. Aliquid est deleniti iste consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eos quia hic rem error, veritatis voluptatem officia maxime ex fugit! Voluptates culpa natus alias eligendi dolorum saepe cumque, inventore fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eum asperior Loes eveniet quam! Voluptatibus quam perferendis impedit culpa, nam tenetur earum cumque facilis reprehenderit molestias ea, vero ad, dolorum non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quibusdam nam excepturi, non quasi facilis culpa aperiam. Iure quis, voluptatum quam fugit enim nobis et eum consequuntur odio, aut labore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ducimus culpa vero aliquid repellat! Explicabo, saepe. Ad, et laborum id minus explicabo, velit dignissimos molestias placeat ut qui nulla laudantium.</p> 
+   <p>rem ipsum dolor sit amet consectetur adipisicing elit. Earum, inventore. Laboriosam dolore ipsa harum id quasi reiciendis incidunt ex aperiam. Fugiat omnis suscipit est consectetur quae labore, ducimus accusantium quisquam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio saepe fuga neque praesentium. Cum voluptatibus similique, dolorum nihil in dolore deleniti tempore explicabo qui illum. Aliquid est deleniti iste consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eos quia hic rem error, veritatis voluptatem officia maxime ex fugit! Voluptates culpa natus alias eligendi dolorum saepe cumque, inventore fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eum asperior Loes eveniet quam! Voluptatibus quam perferendis impedit culpa, nam tenetur earum cumque facilis reprehenderit molestias ea, vero ad, dolorum non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quibusdam nam excepturi, non quasi facilis culpa aperiam. Iure quis, voluptatum quam fugit enim nobis et eum consequuntur odio, aut labore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ducimus culpa vero aliquid repellat! Explicabo, saepe. Ad, et laborum id minus explicabo, velit dignissimos molestias placeat ut qui nulla laudantium.</p> 
+   <p>rem ipsum dolor sit amet consectetur adipisicing elit. Earum, inventore. Laboriosam dolore ipsa harum id quasi reiciendis incidunt ex aperiam. Fugiat omnis suscipit est consectetur quae labore, ducimus accusantium quisquam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio saepe fuga neque praesentium. Cum voluptatibus similique, dolorum nihil in dolore deleniti tempore explicabo qui illum. Aliquid est deleniti iste consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eos quia hic rem error, veritatis voluptatem officia maxime ex fugit! Voluptates culpa natus alias eligendi dolorum saepe cumque, inventore fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eum asperior Loes eveniet quam! Voluptatibus quam perferendis impedit culpa, nam tenetur earum cumque facilis reprehenderit molestias ea, vero ad, dolorum non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quibusdam nam excepturi, non quasi facilis culpa aperiam. Iure quis, voluptatum quam fugit enim nobis et eum consequuntur odio, aut labore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ducimus culpa vero aliquid repellat! Explicabo, saepe. Ad, et laborum id minus explicabo, velit dignissimos molestias placeat ut qui nulla laudantium.</p> 
+</body>
+</html>
