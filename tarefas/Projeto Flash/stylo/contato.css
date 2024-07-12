@@ -32,7 +32,7 @@ li {
     list-style: none;
     color: aliceblue;
     cursor:pointer;
-    font-size: 15px;
+    font-size: 15 px;
     transition: .5s;
     font-family: "Kdam Thmor Pro", sans-serif;
 }
