@@ -2,7 +2,10 @@
 
 /* aparelho em pé  (portrait) */
 
- body {
+ html, body {
     background: url(../Imagens/cev-portrait.jpg);
-    background-position: center bottom ;
+    background-position: left bottom;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
  }
