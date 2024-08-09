@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media query</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 </head>
-<body>
+<body lonresize="mudouTamanho()">
    <header>
         <h1>Meu site</h1>  
         <span id="menu" class="fi fi-rr-menu-burger" onclick="clickMenu()"></span>
@@ -30,6 +31,15 @@
         </article>
    </main>
    <script>
+        function mudouTamanho() {
+            
+            if (windw.innerWidth >= 768){
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
         function clickMenu() {
             var itens = document.getElementById('itens');
             if (itens.style.display === 'block') {

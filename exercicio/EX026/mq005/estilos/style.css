@@ -66,18 +66,18 @@ main {
 }
 
 article > h2 {
-    text-align: justif;
+    text-align: justify;
     margin-bottom: 10px;
-    text-indent: 20px f;
+    text-indent: 20px;
 }
 
 
-@charset (min-width: 768px) {
+@media (min-width: 768px) {
     nav {
         display: block ;
     }
 
-    spn#menu {
+    span#menu {
         display: none ;
     }
 }
