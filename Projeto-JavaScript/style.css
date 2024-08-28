@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+/*font-family: "Matemasie", sans-serif;*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/rick-and-morty-space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    width: 70%;
+    height: auto;
+}
+
+.logo-text {
+    font-family: "Matemasie", sans-serif;
+    font-size: 1rem;
+    color: #3cc7196c;
+}
+
+.social-media {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    font-size: 2rem;
+    color: #0f7929d2;
+}
+
+i:hover {
+    color: rgba(139, 0, 0, 0.699);
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+}
+
+h2 {
+    font-family: "Matemasie", sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0f7929d2;
+    font-weight: 300;
+}
+
+.main-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 10px;
+    padding: 0 20px;
+}
+
+.cards {
+    width: 230px;
+    height: 420px;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+.cards:hover {
+    transform: scale(1.02);
+}
+
+.character-name-bg {
+    width: 100%;
+    height: 30px;
+    background-color: 0,0,0,0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.character-name {
+    font-family: "Matemasie", sans-serif;
+    color: #0f7929d2; 
+}
+
+.buttons {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    width: 700px;
+    height: 25px;
+    background-color: #0f7929d2;
+    color: black;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgba(139, 0, 0, 0.699);
+    color: #fff;
+}
+
+#back-button {
+    visibility: hidden;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    margin: 40px 0 20px 0;
+}
+
+.footer-logo {
+    font-family: "Matemasie", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #3cc7196c;
+}
+
+.copyrigth {
+    font-weight: 500;
+    color: darkgray;
+}
+
+.modal {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+}
+
+.modal-content {
+    width: 25vw;
+    height: 70vh;
+    background-color: #0d0d0d;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 30px 10px;
+    align-items: center;
+}
+
+.character-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: 50% 10%;
+    background-size: cover;
+}
+
+.character-details {
+    font-family: "Matemasie", sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: gold;
+}

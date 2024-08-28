@@ -28,6 +28,7 @@ span#menu {
     text-align: center;
     display: block;
     cursor: pointer;
+    margin-bottom: 5px;
 }
 
 span#menu:hover {

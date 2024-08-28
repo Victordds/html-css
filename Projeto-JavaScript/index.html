@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty</title>
+    <link rel="shortcut icon" href="assets/favicon2.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+        <a href="index.html">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Logo" class="logo-img">
+                <span class="logo-text">Characters</span>
+            </div>
+        </a>
+
+        <div class="social-media">
+            <a href="https://www.instagram.com/vector_siilva/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/victor.dutra.3557440?locale=pt_BR" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.youtube.com/@victordutra8876" target="7">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://x.com/Vector_siilva" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+        </div>
+    </header>
+
+    <div class="main-container">
+
+        <h2>Conheça todos os personagens principais de Rick and Morty</h2>
+
+        <div class="main-content" id="main-content"></div>
+
+        <div class="modal" id="modal" onclick="hideModal()">
+            <div class="modal-content" id="modal-content"></div>
+        </div>
+
+        <div class="buttons">
+            <button id="back-button" disabled>Anterior</button>
+            <button id="next-button" disabled>Próximo</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <p class="footer-logo">Rick and Morty Characters</p>
+        <p class="copyrigth">Desenvolvido por &copy; Victor Dutra</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/b390812712.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<div class="cards" style="background-image: url(assets/rick.png);">
+                <div class="characters-name-bg">
+                    <span class="character-name">Rick Sanchez</span>
+                </div>
+            </div>
+            <div class="cards" style="background-image: url(assets/morty.png);">
+                <div class="characters-name-bg">
+                    <span class="character-name">Morty Smith</span>
+                </div>
+            </div>
+            <div class="cards" style="background-image: url(assets/summer.png);">
+                <div class="characters-name-bg">
+                    <span class="character-name">Summer Smith</span>
+                </div>
+            </div>
+            <div class="cards" style="background-image: url(assets/jerry.png);">
+                <div class="characters-name-bg">
+                    <span class="character-name">jerry Smith</span>
+                </div>
+            </div>
+            <div class="cards" style="background-image: url(assets/bethsanchez.png);">
+                <div class="characters-name-bg">
+                    <span class="character-name">Beth Sanchez</span>
+                </div>
+            </div>
+            <div class="cards" style="background-image: url(assets/bethspace.png);">
+                <div class="characters-name-bg">
+                    <span class="character-name">Beth Space</span>
+                </div>
+            </div>
+            <div class="cards" style="background-image: url(assets/mrpoopybuttp.png);">
+                <div class="characters-name-bg">
+                    <span class="character-name">Mr Poopy Buttp</span>
+                </div>
+            </div>
+            <div class="cards" style="background-image: url(assets/evil-morty.png);">
+                <div class="characters-name-bg">
+                    <span class="character-name">Evil Morty</span>
+                </div>
+            </div>
+            <div class="cards" style="background-image: url(assets/rick-prime.png);">
+                <div class="characters-name-bg">
+                    <span class="character-name">Rick Prime</span>
+                </div>
+            </div>
